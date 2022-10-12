@@ -1,9 +1,11 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <!-- Just an image -->
+
+    <router-link to="/">First Page</router-link> |
+    <router-link to="/SecondPage">Second Page</router-link>
   </nav>
-  <router-view/>
+  <router-view />
 </template>
 
 <style lang="scss">
@@ -12,7 +14,9 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #0080ff;
+
+  background: linear-gradient(45deg, rgb(141, 177, 235), rgb(247, 130, 196));
 }
 
 nav {
@@ -20,10 +24,10 @@ nav {
 
   a {
     font-weight: bold;
-    color: #2c3e50;
+    color: #0080ff;
 
     &.router-link-exact-active {
-      color: #42b983;
+      color: #000000;
     }
   }
 }
