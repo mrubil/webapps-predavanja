@@ -1,5 +1,13 @@
+<script>
+export default {
+  data() {
+    return {
+      items: [],
+    };
+  },
+};
+</script>
+
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-  </div>
+  <v-card> </v-card>
 </template>

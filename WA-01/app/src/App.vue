@@ -1,9 +1,9 @@
 <template>
   <nav>
     <!-- Just an image -->
-
-    <router-link to="/">First Page</router-link> |
-    <router-link to="/SecondPage">Second Page</router-link>
+    <div>
+      <router-link to="/" style="text-decoration: none"> Početna </router-link>
+    </div>
   </nav>
   <router-view />
 </template>
@@ -13,10 +13,10 @@
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #0080ff;
+  text-align: left;
+  color: rgb(255, 255, 255);
 
-  background: linear-gradient(45deg, rgb(141, 177, 235), rgb(247, 130, 196));
+  background: linear-gradient(45deg, rgb(0, 98, 255), rgb(183, 172, 239));
 }
 
 nav {
@@ -24,10 +24,10 @@ nav {
 
   a {
     font-weight: bold;
-    color: #0080ff;
+    color: rgb(255, 255, 255);
 
     &.router-link-exact-active {
-      color: #000000;
+      color: rgb(242, 242, 255);
     }
   }
 }
